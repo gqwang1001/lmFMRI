@@ -23,3 +23,4 @@ localtstat = function(center, betamap, radius, nn, adjust.p.method = "BH"){
   psuedo.t = eb.fit$coefficients[1]/sqrt(mean((eb.fit$sigma)^2))/eb.fit$stdev.unscaled[1]
   return(c(tstat, pval, adj.pval, psuedo.t))
 }
+

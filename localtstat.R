@@ -5,7 +5,7 @@ localtstat = function(center, betamap, radius, nn, adjust.p.method = "BH"){
   ## betamap:      Activation map
   ## radius:       Radius for finding exact neighbor indices that dist(targetInd - queryInd) <= radius
   ## nn:           Results from findNearestNeighbor function
-  
+  ## adjust.p.method: Refer to the topTable function in limma package. 
   ## Output:
   
   ##tstat   :   local t-statistics modorated by limma
